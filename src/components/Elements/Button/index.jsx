@@ -2,15 +2,15 @@
 const Button = (props) => {
     const {children, 
       ClassName, 
-      onClick = () =>{}, 
-      type = "button"
+       
+      type = "submit",
     } = props;
     
     return (
       <button 
-        className={`h-10 px-6 border rounded-md ${ClassName} text-white flex mx-auto  items-center justify-center hover:bg-blue-700 `} type={type}
-        onClick={() => onClick()}
-      >
+        className={`h-16 px-6 border rounded-full ${ClassName} text-white flex mx-auto  items-center justify-between hover:bg-white hover:text-blue-500 `} type={type}
+        
+      >        
         {children}
       </button>
       

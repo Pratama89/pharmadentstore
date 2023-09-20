@@ -3,7 +3,7 @@ import AuthLayout from "../components/Layouts/AuthLayout";
 
 const LoginPage = () => {
     return (
-        <AuthLayout title="Login" type="login">
+        <AuthLayout title="Pharmadent" type="login">
             <FormLogin />
             <div className="flex justify-center flex-col items-center">
                 

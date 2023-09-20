@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "/login",
+    path: "/linkpharmadent",
     element: <LoginPage />
   },
   {

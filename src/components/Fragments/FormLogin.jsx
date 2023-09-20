@@ -1,32 +1,36 @@
 import Button from "../Elements/Button";
-import InputForm from "../Elements/Input";
 
 const FormLogin = () => {
-  const handleLogin = (event) => 
-  {
-    event.preventDefault();
-
-    localStorage.setItem('email', event.target.email.value);
-    localStorage.setItem('password', event.target.password.value);
-    window.location.href = "/products";
-
-  }
+  
     return (
-        <form onSubmit={handleLogin}>
-          <InputForm 
-          label="Email" 
-          type="email" 
-          placeholder="example@gmail.com"
-          name="email" 
-          />
-          <InputForm  
-          label="Password" 
-          type="password" 
-          placeholder="*****"
-          name="password" 
-          />
-          <Button ClassName="bg-blue-600 w-full" type="submit"
-          >Login</Button>
+        <form >         
+          <a href="https://pharmadentstore.com">
+          <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
+          >
+            <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
+                <img src="/public/pharmadent.svg" alt="" />
+            </div>
+            Web Pharmadent
+          </Button>
+          </a>
+          <a href="https://www.facebook.com/pharmadental.pharmadental">
+          <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
+          >
+            <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
+                <img src="/public/facebook.png" alt="" />
+            </div>
+            Facebook
+          </Button>
+          </a>
+          <a href="https://www.facebook.com/pharmadental.pharmadental">
+          <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
+          >
+            <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
+                <img src="/public/facebook.png" alt="" />
+            </div>
+            Facebook
+          </Button>
+          </a>
         </form>
     )
 }
