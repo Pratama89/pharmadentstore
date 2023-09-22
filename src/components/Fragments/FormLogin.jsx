@@ -13,6 +13,7 @@ const FormLogin = () => {
             Web Pharmadent
           </Button>
           </a>
+
           <a href="https://www.facebook.com/pharmadental.pharmadental">
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
@@ -38,16 +39,25 @@ const FormLogin = () => {
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
                 <img src="/public/Shopee.png" alt="" />
             </div>
-            Tokopedia
+            Shopee
           </Button>
           </a>
-          <a href="wa.me/6282191629191">
+          <a href="https://www.tiktok.com/@pharmadent?_t=8ftL8PuOZgf&_r=1">
+          <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
+          >
+            <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
+                <img src="/public/Tiktok.png" alt="" />
+            </div>
+            Tiktok Shop
+          </Button>
+          </a>
+          <a href="https://wa.me/6282191629191?text=Halo%20Pharmadent">
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
                 <img src="/public/WA.png" alt="" />
             </div>
-            Tokopedia
+            WhatsApp
           </Button>
           </a>
         </form>

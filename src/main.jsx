@@ -3,28 +3,15 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import LoginPage from './Pages/login.jsx';
-import RegisterPage from './Pages/register.jsx';
 import ErrorPage from './Pages/404.jsx';
-import ProductsPage from './Pages/products';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <LoginPage />,
     errorElement: <ErrorPage />
-  },
-  {
-    path: "/linkpharmadent",
-    element: <LoginPage />
-  },
-  {
-    path: "/register",
-    element: <RegisterPage />
-  },
-  {
-    path: "/products",
-    element: <ProductsPage />
-  },
+  }  
+  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
