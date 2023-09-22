@@ -18,7 +18,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/facebook.png" alt="" />
+                <img src="/public/facebook.svg" alt="" />
             </div>
             Facebook
           </Button>
@@ -27,7 +27,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/Tokped.png" alt="" />
+                <img src="/public/Tokped_1.svg" alt="" />
             </div>
             Tokopedia
           </Button>
@@ -37,7 +37,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/Shopee.png" alt="" />
+                <img src="/public/Shopee_1.svg" alt="" />
             </div>
             Shopee
           </Button>
@@ -46,7 +46,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/Tiktok.png" alt="" />
+                <img src="/public/Tiktok_1.svg" alt="" />
             </div>
             Tiktok Shop
           </Button>
@@ -55,7 +55,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/WA.png" alt="" />
+                <img src="/public/WA_1.svg" alt="" />
             </div>
             WhatsApp
           </Button>
