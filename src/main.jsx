@@ -10,6 +10,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <LoginPage />,
     errorElement: <ErrorPage />
+  },
+
+  {
+    path: "/index",
+    element: <LoginPage />,
+    errorElement: <ErrorPage />
   }  
   
 ])
