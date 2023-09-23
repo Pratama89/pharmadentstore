@@ -8,7 +8,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/pharmadent.svg" alt="" />
+                <img src="/src/assets/img/pharmadent.svg" alt="" />
             </div>
             Web Pharmadent
           </Button>
@@ -18,7 +18,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/facebook.svg" alt="" />
+                <img src="/src/assets/img/facebook.svg" alt="" />
             </div>
             Facebook
           </Button>
@@ -27,7 +27,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/Tokped.svg" alt="" />
+                <img src="/src/assets/img/Tokped.svg" alt="" />
             </div>
             Tokopedia
           </Button>
@@ -37,7 +37,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/Shopee.svg" alt="" />
+                <img src="/src/assets/img/Shopee.svg" alt="" />
             </div>
             Shopee
           </Button>
@@ -46,7 +46,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/Tiktok.svg" alt="" />
+                <img src="/src/assets/img/Tiktok.svg" alt="" />
             </div>
             Tiktok Shop
           </Button>
@@ -55,7 +55,7 @@ const FormLogin = () => {
           <Button ClassName="bg-transparent w-full font-semibold text-lg my-5" type="submit"
           >
             <div className="rounded-full h-12 w-12 flex items-center justify-center -ml-4 " >              
-                <img src="/public/WA.svg" alt="" />
+                <img src="/src/assets/img/WA.svg" alt="" />
             </div>
             WhatsApp
           </Button>

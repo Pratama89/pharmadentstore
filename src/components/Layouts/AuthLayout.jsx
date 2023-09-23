@@ -8,8 +8,8 @@ const AuthLayout = (props) => {
     return (
       <div className='flex justify-center min-h-screen bg-blue-500 items-center'>
           <div className='w-full max-w-2xl  p-5 rounded-lg  -mt-36'>
-            <div className="">
-            <img src="/public/Pharmadent Telp.svg" alt="" className="h-24 w-24 mx-auto rounded-full mb-3 " />
+            <div >
+            <img src="/src/assets/img/Pharmadent Telp.svg" alt="" className="h-24 w-24 mx-auto rounded-full mb-3 " />
             </div>
           <h1 className='text-3xl font-bold mb-10 text-center text-white '>{title}</h1>        
 
